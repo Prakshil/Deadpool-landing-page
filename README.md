@@ -2,7 +2,7 @@
 
 A modern, responsive landing page dedicated to the Merc with a Mouth - Deadpool. This project features a clean UI design with smooth animations and a mobile-friendly navigation menu.
 
-![Deadpool Landing Page Preview](./deadpool.png)
+![Deadpool Landing Page Preview](./image.png)
 
 ## Features ✨
 
