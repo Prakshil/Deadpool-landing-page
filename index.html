@@ -6,38 +6,41 @@
     <title>DeadPool</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-            <h1>
+            <h1 data-aos="fade-down">
                 DeadPool
             </h1>
-            <ul class="list">
+            <ul class="list" data-aos="fade-down">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-            <button id="btn">
+            <button id="btn" data-aos="fade-down">
                 <i class="fa-solid fa-bars"></i>
             </button>
         </nav>
         <section>
             <div class="container">
-                <h1>the Unstoppable World of Deadpool</h1>
-                <p>
+                <h1 data-aos="fade-up">the Unstoppable World of Deadpool</h1>
+                <p data-aos="fade-up" data-aos-delay="200">
                     Welcome to the epicenter of all things Deadpool! Unleash the irreverent charm, unparalleled wit, and the sheer madness that define the Merc with a Mouth. Join us on a wild ride through the chaotic adventures of Wade Wilson, where humor meets action, and the unexpected is just another Tuesday.
                 </p>
                 <div class="buttons">
-                    <button>Try</button>
-                    <button>Watch</button>
+                    <button data-aos="zoom-in">Try</button>
+                    <button data-aos="zoom-in" data-aos-delay="100">Watch</button>
                 </div>
             </div>
-            <img src="./deadpool.png" alt="">
+            <img src="./deadpool.png" alt="" data-aos="flip-right">
         </section>
     </header>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
+    AOS.init();
     const btn= document.getElementById("btn")
     const list= document.querySelector(".list")
 
